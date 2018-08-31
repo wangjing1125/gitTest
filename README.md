@@ -19,4 +19,7 @@
    3.将暂存区改动的内容提交到版本库：git commit -m "change one" (-m后面的内容为提交时的注释)
    4.直接将工作区的修改提交到版本库：git commit -a -m "" (-a是add的简写，这样就省略了add那一步)
    5.查看谁在什么时候修改了什么内容：git log
+   6.工作区与暂存区差异对比：git diff
+   7.暂存区与版本库差异对比：git diff --cached(--staged)
+   8.工作区与版本库差异对比：git diff master
    
