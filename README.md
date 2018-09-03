@@ -6,7 +6,7 @@
   2.git clone [url]
   3.设置贡献者：
      1).name:git config --global user.name "wangjing1125"  
-     2).email:git config --global user.email "354884012@qq.com"
+     2).email:git config --global user.email "35488****@qq.com"
   4.查看贡献者：
      1).name:git config --global user.name 
      2).email:git config --global user.email
