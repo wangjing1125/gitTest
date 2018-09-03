@@ -17,7 +17,7 @@
    1.查看当前工作区与暂存区的状态：git status
    2.将本地工作区改动的内容添加到暂存区:1).提交单个文件：git add [文件名]    2).提交全部文件：git add .
    3.将暂存区改动的内容提交到版本库：git commit -m "change one" (-m后面的内容为提交时的注释)
-   4.直接将工作区的修改提交到版本库：git commit -a -m "" (-a是add的简写，这样就省略了add那一步)
+   4.直接将工作区的修改提交到版本库：git commit -am "" (-a是add的简写，这样就省略了add那一步)
    5.查看谁在什么时候修改了什么内容：git log
    差异对比：
    1.工作区与暂存区差异对比：git diff
@@ -35,7 +35,7 @@
       1.恢复被删除的单个文件：git checkout id drag.js
       2.恢复被删除的某个版本：git reset --hard id
       3.恢复到前一个版本：git reset --hard HEAD^
-        恢复到前两个版本：git reset --hard HEAD^2
-      4.显示最近几次的操作:git relog
+        恢复到前两个版本：git reset --hard HEAD~2
+      4.显示最近几次的操作:git reflog
       5.恢复到前一个版本后再恢复回现在的状态：git reset --hard id (从git relog显示中查看对应的id)
    
