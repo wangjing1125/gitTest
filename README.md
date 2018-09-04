@@ -51,4 +51,5 @@
       2.新建分支：git branch new1
       3.切换到new1分支：git checkout new1
       4.直接新建分支并切换到新建的分支：git checkout -b new2
+      5.改动了new1版本，回到master分支，使master分支跟new1版本一致(合并)：git merge new1
    
