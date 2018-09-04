@@ -43,5 +43,7 @@
       2.将本地的更新上传到远程仓库github:git push origin master
     从远程仓库更新到本地文件：
       1.从远程仓库下载新分支与数据：git fetch origin
-      2.从远端仓库提取数据并尝试合并到当前分支：git merge origin/master
+      2.查看本地与远程的冲突：git diff master origin/master
+      3.从远端仓库提取数据并尝试合并到当前分支：git merge origin/master
+      4.直接从远端仓库提取数据并合并到当前分支：git pull
    
