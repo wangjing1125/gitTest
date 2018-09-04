@@ -38,4 +38,10 @@
         恢复到前两个版本：git reset --hard HEAD~2
       4.显示最近几次的操作:git reflog
       5.恢复到前一个版本后再恢复回现在的状态：git reset --hard id (从git relog显示中查看对应的id)
+    上传到github:
+      1.查看当前的远程仓库：git remote  (git remote -v)    会显示出该远程仓库的名称origin
+      2.将本地的更新上传到远程仓库github:git push origin master
+    从远程仓库更新到本地文件：
+      1.从远程仓库下载新分支与数据：git fetch origin
+      2.从远端仓库提取数据并尝试合并到当前分支：git merge origin/master
    
