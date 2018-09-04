@@ -46,4 +46,9 @@
       2.查看本地与远程的冲突：git diff master origin/master
       3.从远端仓库提取数据并尝试合并到当前分支：git merge origin/master
       4.直接从远端仓库提取数据并合并到当前分支：git pull
+    git分支：
+      1.查看所有分支：git branch
+      2.新建分支：git branch new1
+      3.切换到new1分支：git checkout new1
+      4.直接新建分支并切换到新建的分支：git checkout -b new2
    
